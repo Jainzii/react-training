@@ -4,7 +4,7 @@ Aufgaben zum Lernen/Üben von React
 
 ## Einrichtung
 
-Bevor die React-App gestartet werden kann, müssen die in der package.json angegebenen packages installiert werden. Das geht mit folgende 
+Bevor die React-App gestartet werden kann, müssen die in der package.json angegebenen packages installiert werden. Das geht mit folgendendem 
 Befehl:
 
 ### `npm install`
@@ -35,7 +35,7 @@ Wichtig: Die Komponente muss dafür exportiert werden. Schreib dafür in die JS-
 
 ### `export KLASSEN-/FUNKTIONSNAME`
 
-Wenn die App gestartet ist, befindet sich die Komponente dann unter [http://localhost:3000/task1](http://localhost:3000/task1) 
+Wenn die App gestartet ist, befindet sich die Komponente danach (nach dem hinzufügen in FirstTask.js) unter [http://localhost:3000/task1](http://localhost:3000/task1) 
 (Erreichbar über Link oder Button im Header)
 
 Falls Styling hinzugefügt werden soll, kann eine Styling-Datei im Ordner hinzugefügt werden. Diese muss dann importiert werden durch:
@@ -51,9 +51,11 @@ Erstelle eine Komponente im task2-Ordner, die
 
 Es ist wieder egal, ob Klassen- oder Funktionskomponente.
 
-Die Komponente soll in die SecondTask-Komponente gegeben werden. (/task2/SecondTask.js)
+Die Komponente soll in die SecondTask-Komponente gegeben werden. (SecondTask.js)
 
 Die Komponente ist dann erreichbar unter [http://localhost:3000/task2](http://localhost:3000/task2)
-(Erreichbar über Link oder Button im Header)
+(Erreichbar über Link oder Button im Header) 
 
-**Bitte die Ergebnisse nicht committen/pushen**
+Für Styling, Exportieren und Importieren siehe Aufgabe 1
+
+Im Unterordner examples sind Lösungsbeispiele für eine Funktions- und Klassenkomponente enthalten.
