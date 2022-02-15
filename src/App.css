@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+
+.header {
+  background-color: #282c34;
+  max-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header .button-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header .button-container a{
+  height: 40px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4a4e56;
+  color: #EEEEEE;
+  font-style: normal;
+  border-radius: 5px;
+}
+
+.header .button-container a:hover{
+  background-color: #393d45;
+}
